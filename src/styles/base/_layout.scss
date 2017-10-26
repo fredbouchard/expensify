@@ -1,0 +1,15 @@
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+   width: 100%;
+   max-width: 60rem;
+   padding: 0 $l-size;
+   box-sizing: border-box;
+}
