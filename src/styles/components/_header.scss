@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &-title {
+        margin: 0 $s-size 0 0;
+    }
+
+    &-link {
+        margin: 0 $s-size 0 0;
+
+        &.is-active {
+            font-weight: $bold-weight;
+        }
+    }
+}
