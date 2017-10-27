@@ -14,7 +14,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.jsx$/,
+                test: /\.jsx?$/,
                 loader: 'babel-loader',
                 exclude: /node_modules/
             },
@@ -26,6 +26,7 @@ module.exports = {
     },
     devtool: 'cheap-module-eval-source-map',
     devServer: {
-        contentBase: publicPath
+        contentBase: publicPath,
+        historyApiFallback: true
     }
 };
