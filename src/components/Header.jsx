@@ -7,7 +7,7 @@ const Header = () => (
         <NavLink 
             className="header-link"
             activeClassName="is-active"
-            to="/" exact={true}>Home
+            to="/" exact={true}>Dashboard
         </NavLink>
         <NavLink
             className="header-link"
