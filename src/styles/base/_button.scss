@@ -6,6 +6,7 @@
     padding: $s-size $m-size;
     font-size: $m-size;
     border-width: .3rem;
+    font-weight: $bold-weight;
        
 
     &:disabled {
@@ -16,7 +17,6 @@
     &-primary {
         background-color: $primary;
         color: $white;
-        font-weight: $bold-weight;
     }
 
     &-secondary {

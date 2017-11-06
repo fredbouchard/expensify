@@ -1,0 +1,15 @@
+.ExpenseForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 420px;
+
+  input,
+  textarea,
+  button,
+  SingleDatePicker {
+    flex: 1 1 auto;
+    margin: 0 0 $s-size 0;
+  }
+}

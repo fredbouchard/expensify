@@ -16,28 +16,28 @@ const store = configureStore();
 store.subscribe(() => {
   const state = store.getState();
   const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
-  console.log(state, visibleExpenses);
+  console.log(state);
 });
 
 store.dispatch(addExpense({
   description: 'Water bill',
   note: 'due for next month',
-  amount: 48.23,
-  createdAt: 100
+  amount: 4823,
+  createdAt: 1509994774000
 }));
 
 store.dispatch(addExpense({
   description: 'Gas bill',
   note: 'due this month',
-  amount: 124.23,
-  createdAt: 125
+  amount: 12423,
+  createdAt: 1509994507400
 }));
 
 store.dispatch(addExpense({
   description: 'Rent',
   note: 'due this month',
   amount: 1575,
-  createdAt: 1000
+  createdAt: 1509996074000
 }));
 
 

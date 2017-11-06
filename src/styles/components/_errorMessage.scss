@@ -1,0 +1,14 @@
+.ErrorMessage {
+  width: 100%;
+  background-color: $off-gray;
+  border: 1px solid $light-blue;
+  padding: $s-size;
+  text-align: center;
+  color: $dark-blue;
+
+  &--error {
+    background-color: $light-danger;
+    border: 1px solid $danger;
+    color: $danger;    
+  }
+}
