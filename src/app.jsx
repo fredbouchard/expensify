@@ -33,11 +33,13 @@ store.dispatch(addExpense({
   createdAt: 125
 }));
 
-store.dispatch(setTextFilter('Bill'));
+store.dispatch(addExpense({
+  description: 'Rent',
+  note: 'due this month',
+  amount: 1575,
+  createdAt: 1000
+}));
 
-setTimeout( () => {
-  store.dispatch(setTextFilter('Water'));
-}, 3000);
 
 const jsx = (
   <Provider store={store}>
