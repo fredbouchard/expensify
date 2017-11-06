@@ -9,7 +9,9 @@
     "start": "npm run dev-server",
     "serve": "live-server public/",
     "build": "webpack",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "test": "jest",
+    "dev-test": "jest --watchAll"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -19,6 +21,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.7",
     "eslint": "^4.10.0",
+    "jest": "^21.2.1",
     "live-server": "^1.2.0",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
