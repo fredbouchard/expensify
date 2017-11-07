@@ -1,0 +1,10 @@
+{
+  "name": "Expensify",
+  "jest": {
+    "verbose": true
+  },
+  "coverageReporters": [
+    "istanbul"
+  ],
+  "coverageDirectory": "./coverage"
+}
